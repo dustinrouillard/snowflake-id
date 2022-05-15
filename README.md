@@ -15,7 +15,7 @@ npm install snowflake-id
 ### initialization
 
 ```js
-var SnowflakeId = require('snowflake-id');
+var SnowflakeId = require('snowflake-id').default;
 
 // Initialize snowflake
 var snowflake = new SnowflakeId({
